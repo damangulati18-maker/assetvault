@@ -8,7 +8,7 @@ require("dotenv").config();
 const app=express();
 
 app .use(cors({
-    origin:"http://localhost:5173",
+    origin: process.env.CLIENT_URL,
     credentials:true,
     //methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
 }));
@@ -22,11 +22,15 @@ const itemRouter = require("../routes/itemRoutes");
 app.use("/",authRouter);
 app.use("/",itemRouter);
 
+const PORT = process.env.PORT || 5004;
+
 connectDB()
     .then(()=>{
         console.log("cluster connected");
-        app.listen(5004);
+        app.listen(PORT, () => {
+            console.log(`Server running on port ${PORT}`);
+        });
     })
     .catch((err)=>{
         console.error("cluster not connected error:"+err);
-    })
+    });
