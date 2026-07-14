@@ -1,0 +1,9 @@
+export const signupurl="http://localhost:5004/signupNewUser";
+export const loginurl="http://localhost:5004/loginUser";
+export const getitemsurl="http://localhost:5004/getItems";
+export const additemurl="http://localhost:5004/addNewItem";
+export const assignitemurl="http://localhost:5004/assignItem";
+export const getassignitemsurl="http://localhost:5004/getAssignedItems";
+export const additemforrepairurl="http://localhost:5004/addItemForMaintainance";
+export const getrepairitemsurl="http://localhost:5004/getItemsForRepairs";
+export const logouturl="http://localhost:5004/logout";
