@@ -50,7 +50,7 @@ const Login = () => {
           <div className="w-6 h-6 border-2 border-stone-200 rounded-sm relative">
             <div className="absolute left-1/2 -top-1.5 w-px h-1.5 bg-stone-200 -translate-x-1/2" />
           </div>
-          <div className="text-xl font-bold uppercase tracking-wide" style={fontHeading}>Upkeep </div>
+          <div className="text-xl font-bold uppercase tracking-wide" style={fontHeading}>Vaultly </div>
         </div>
 
         <div className="relative z-10 max-w-sm">
