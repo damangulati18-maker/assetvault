@@ -6,6 +6,8 @@
 
 **Live demo → https://assetvault-nu.vercel.app**
 
+**Demo video →** [Watch here](docs/demo/Vaultly%20Demo.mov)
+
 ## Features
 - Facility sign-in with secure authentication
 - Track equipment inventory across multiple stores/facilities (brand, quantity, unit price, location)
