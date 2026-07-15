@@ -86,7 +86,7 @@ const Login = () => {
           {mode === "login" ? (
             <>
               <h1 className="text-3xl font-bold uppercase mb-2" style={fontHeading}>Welcome back</h1>
-              <p className="text-sm text-stone-500 mb-8">Sign in to your Upkeep account to continue.</p>
+              <p className="text-sm text-stone-500 mb-8">Sign in to your Vaultly account to continue.</p>
 
               <div>
                 <div className="mb-4">
@@ -123,7 +123,7 @@ const Login = () => {
           ) : (
             <>
               <h1 className="text-3xl font-bold uppercase mb-2" style={fontHeading}>Create your vault</h1>
-              <p className="text-sm text-stone-500 mb-8">Set up an Upkeep account for your facility team.</p>
+              <p className="text-sm text-stone-500 mb-8">Set up a Vaultly account for your facility team.</p>
 
               <div>
                 <div className="mb-4">
